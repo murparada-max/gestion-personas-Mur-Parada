@@ -78,8 +78,16 @@ def precargar_datos():
            'estado':False,
            'telefonos': [998885557]
     }
+    persona3 = {'id':113,
+           'nombre':'Pedrito',
+           'edad':20,
+           'estatura':1.8,
+           'estado':True,
+           'telefonos': [945347197]
+    }
     personas.append(persona1)
     personas.append(persona2)
+    persona.append(persona3)
 
 def buscar_persona_por_id(id_persona):
     i = 0

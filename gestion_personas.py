@@ -87,7 +87,7 @@ def precargar_datos():
     }
     personas.append(persona1)
     personas.append(persona2)
-    persona.append(persona3)
+    personas.append(persona3)
 
 def buscar_persona_por_id(id_persona):
     i = 0
